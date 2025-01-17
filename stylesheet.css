@@ -28,6 +28,21 @@ h3 {
     text-align: center;
 }
 
+.description {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.paragraph {
+    width: 50vw;
+}
+
+.paragraph a {
+    color: #55AAFF;
+}
+
 .button {
     display: flex;
     justify-content: center;
@@ -53,15 +68,6 @@ h3 {
     margin: 0px 0px 0px 8px;
 }
 
-hr {
-    width: 60vw;
-    justify-self: center;
-    margin: 0px 0px 32px 0px;
-    color: #1e1e1e;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 2rem;
-}
 
 .alert {
     opacity: 0;
@@ -86,19 +92,33 @@ hr {
     opacity: 1;
 }
 
-.description {
+hr {
+    width: 60vw;
+    justify-self: center;
+    margin: 0px 0px 32px 0px;
+    color: #1e1e1e;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2rem;
+}
+
+.search {
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+}
+
+.searchbar {
+    padding: 16px;
+    margin-bottom: 32px;
+    font-size: 16px;
+
+    border-radius: 2rem;
+    border-width: 0px;
+    border-style: solid;
     color: #ffffff;
-}
 
-.paragraph {
-    width: 50vw;
-}
-
-.paragraph a {
-    color: #55AAFF;
+    background-color: #1e1e1e;
 }
 
 .page {
@@ -185,6 +205,10 @@ hr {
         width: 80vw;
     }
 
+    .searchbar {
+        width: 80vw;
+    }
+
     .page {
         margin: 0px 5vw;
         grid-template-columns: repeat(auto-fit, 160px);
@@ -220,6 +244,10 @@ hr {
 
     .paragraph {
         width: 50vw;
+    }
+    
+    .searchbar {
+        width: 40vw;
     }
 
     .page {
