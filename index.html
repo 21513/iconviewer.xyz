@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js" defer></script>
+
+    <title>Icon Viewer</title>
+</head>
+<body>
+
+    <div class="title">
+        <h1>Icon Viewer</h1>
+    </div>
+
+    <div class="description">
+        <div class="paragraph">
+            <h3>
+                This website allows you to easily search and copy any icon used in bpy.<br>
+                All icons are sourced from the official Blender UI page:
+                <a href="https://ui.blender.org/icons">ui.blender.org/icons</a>
+                <br>
+                <br>
+                If an icon has an incorrect name, please change the name in the GitHub repository.
+            </h3>
+        </div>
+    </div>
+    
+    <div class="button">
+        <div class="zip" onclick="downloadZip()">
+            <img class="clipboard" src="assets/zip.svg" alt="ZIP Folder Icon">
+            <a>Download .ZIP file with all .SVGs</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="alert">
+        <div class="status">
+            <img class="clipboard" src="assets/check.svg" alt="Checkmark Icon">
+            <a class="text">Copied to clipboard</a>
+        </div>
+    </div>
+</body>
+</html>

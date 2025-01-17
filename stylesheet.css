@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('Coolvetica.otf');
+}
+
+@font-face {
+    font-family: 'Coolvetica-Condensed';
+    src: url('Coolvetica-Condensed.otf');
+}
+
+body {
+    background-color: #010101;
+    font-family: 'Coolvetica';
+    font-size: 16px;
+    letter-spacing: 0.1rem;
+    margin: 0;
+}
+
+.title {
+    margin: 64px 0px 0px 0px;
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Coolvetica-Condensed';
+    font-size: 24;
+    font-weight: 200;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.paragraph {
+    width: 50vw;
+}
+
+.paragraph a {
+    color: #55AAFF;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0px;
+}
+
+.zip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 40vw;
+    text-align: center;
+    padding: 8px;
+
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.zip a {
+    font-family: 'Coolvetica';
+    font-size: 20;
+    font-weight: 200;
+    letter-spacing: normal;
+    margin: 0px 0px 0px 8px;
+}
+
+hr {
+    width: 60vw;
+    justify-self: center;
+    margin: 0px 0px 32px 0px;
+    color: #1e1e1e;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2rem;
+}
+
+.page {
+    display: grid;
+    margin: 0px 20vw;
+    grid-template-columns: repeat(auto-fit, 128px);
+    justify-content: center;
+    gap: 8px;
+    padding: 4px;
+}
+
+.group {
+    display: grid;
+    width: 112px;
+    height: 112px;
+    padding: 8px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    justify-items: center;
+}
+
+.icon_empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 8px;
+}
+
+.icon {
+    width: 64px;
+    height: 64px;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 104px;
+
+    padding: 4px;
+
+    background-color: #ffffff;
+    border-radius: 2rem;
+    
+    cursor: pointer;
+}
+
+.copy:hover {
+    background-color: #dddddd;
+}
+
+.clipboard {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin: 0px 4px 0px 0px;
+}
+
+.text {
+    font-size: 16;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #010101;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.alert {
+    opacity: 0;
+    width: fit-content;
+    background-color: #44CC44;
+    border-radius: 2rem;
+    padding: 8px;
+
+    position: fixed;
+    bottom: 16px;
+    left: 16px;
+
+    transition: 0.2s ease-in-out;
+}
+
+.status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert.active {
+    display: block;
+    opacity: 1;
+}
