@@ -5,6 +5,7 @@ All of the names you copy are derived from the filename on the official Blender 
 None of the icons are mine, they are publicly available through the official website here: https://ui.blender.org/icons
 
 **Future plans**
+
 Add a search bar so you can search for icons easily and quickly just like in Blender.
 Add a download button which converts the SVG to a PNG for creators to use in videos.
 Add additional options for copying code already formatted correctly to use in Blender Python e.g. ", icon='MESH_DATA'".
